@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1060180425438",
+    "firebase_url": "https://study-sync-hub-default-rtdb.firebaseio.com",
+    "project_id": "study-sync-hub",
+    "storage_bucket": "study-sync-hub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1060180425438:android:21eff19037973a075e204f",
+        "android_client_info": {
+          "package_name": "com.example.studysynchub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1060180425438-9jdmf7k86825f8ia0tbq1kgbhv08gj0a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.studysynchub",
+            "certificate_hash": "9de0b4875a8f4d337f5224c6d4104019f330a94f"
+          }
+        },
+        {
+          "client_id": "1060180425438-5qfnimc8104qd9cucodrtounsfadee73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbHaH0LT9j6Pm2Woqi4wwTSOsVIU4N7cU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1060180425438-5qfnimc8104qd9cucodrtounsfadee73.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
