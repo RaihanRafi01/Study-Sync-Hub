@@ -1,17 +1,12 @@
-package com.example.studysynchub.Login
+package com.example.studysynchub.Login_Reg
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.studysynchub.MainActivity
-import com.example.studysynchub.R
 import com.example.studysynchub.databinding.ActivityLoginBinding
-import com.example.studysynchub.databinding.ActivityMainBinding
 import com.google.firebase.auth.FirebaseAuth
 
 class LoginActivity : AppCompatActivity() {
@@ -46,12 +41,6 @@ class LoginActivity : AppCompatActivity() {
             }else{
                 Toast.makeText(this@LoginActivity,"Please Provide Name and Password", Toast.LENGTH_SHORT).show()
             }
-            /*if (edtEmail.equals("admin")&&edtPassword.equals("123")){
-
-            }else{
-                Toast.makeText(this@LoginActivity,"Wrong Name and Password",Toast.LENGTH_LONG).show()
-            }*/
-            //Log.e("value","Name : "+edtName.text +" , Pass : "+edtPassword.text)
 
         })
     }
