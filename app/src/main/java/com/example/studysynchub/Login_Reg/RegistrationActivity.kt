@@ -32,7 +32,6 @@ class RegistrationActivity : AppCompatActivity() {
         setContentView(binding.root)
         firebaseAuth = FirebaseAuth.getInstance()
         initval()
-
         binding.btnReg.setOnClickListener {
             initval()
             val allChecked = CheckAllFields()
@@ -57,7 +56,6 @@ class RegistrationActivity : AppCompatActivity() {
                             } else {
                                 Toast.makeText(this, "SignUp Unsuccessful", Toast.LENGTH_SHORT).show()
                             }
-
                         }
                 } else {
                     Toast.makeText(this, "Please Provide Email and Password", Toast.LENGTH_SHORT).show()
