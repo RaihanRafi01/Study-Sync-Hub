@@ -51,8 +51,6 @@ class RegistrationActivity : AppCompatActivity() {
                                     startActivity(iLogin)
                                     finish()
                                 }, 2000)
-                                /* startActivity(iLogin)
-                                 finish()*/
                             } else {
                                 Toast.makeText(this, "SignUp Unsuccessful", Toast.LENGTH_SHORT).show()
                             }
